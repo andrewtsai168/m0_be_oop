@@ -1,5 +1,5 @@
 # Self Evaluation
 
-- This final CFU encompassed everything you've learned in Mod 0, and maybe even required some learning outside of what you've explicitly been taught. How did it feel as you faced these challenges?
-- How is your workflow going, in terms of taking breaks, staying focused, etc.?
-- What do you need to do to be ready for intense technical lessons and challenges like this, for 6 hours/day next week? What support do you need?
+- This final CFU encompassed everything you've learned in Mod 0, and maybe even required some learning outside of what you've explicitly been taught. How did it feel as you faced these challenges? Wow, that was tough. Definitely unproductive challenge once I got to the Dragon Class. Although I've completed the questions, I'm uncertain about my code. That was really really difficult. I think once I got the hang of it, Hobbit was a little bit easier? I just used what I've learned from the Dragon question and hoping I'm on the right direction with the Hobbits.
+- How is your workflow going, in terms of taking breaks, staying focused, etc.? I took a really long dinner break, about 2 hours having dinner with my family. But before that, I spent about an hour working by myself, an hour working with Bryan, and another hour staring at the screen and telling myself I have no clue what's going on. After dinner, I was able to focus better and worked through the problems.
+- What do you need to do to be ready for intense technical lessons and challenges like this, for 6 hours/day next week? What support do you need? Take my own time and be prepared. Have small breaks in between, and just work one step at a time, no rushing. 
