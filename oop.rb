@@ -8,14 +8,11 @@ class Unicorn
     @name = name
     @color = 'silver'
   end
-  def say
-    p "*~* #{@name} *~*"
+  def say(message)
+    p "*~* #{message} *~*"
   end
 end
 
-
-unicorn1 = Unicorn.new("Sparkle")
-unicorn1.say
 
 
 #  Write a class called Vampire
@@ -32,8 +29,8 @@ class Vampire
   def change_pet(new_pet)
     @pet = new_pet
   end
-  def change_thirsty(new_thirsty)
-    @thirsty = new_thirsty
+  def drink
+    @thirsty == false
   end
 end
 
@@ -46,17 +43,27 @@ end
 #  it should have a eat method. If the dragon eats 4 times, it is no longer hungry
 
 class Dragon
+  attr_reader :name, :rider, :color, :is_hungry, :meals
   def initialize(name, rider, color)
-    @name = names
+    @name = name
     @rider = rider
     @color = color
     @is_hungry = true
+    @meals = 0
   end
-  def eat(is_hungry)
-    @is_hungry == 4
-    p "hunger satisfied"
+
+    def eats
+      @is_hungry = false if @meals == 4
   end
 end
+
+
+dragon1 = Dragon.new("Red", "Drac", "Gold")
+p dragon1
+
+
+
+
 #  Write a Hobbit class
 #  it should have a dynamic name attribute (string)
 #  it should have a dynamic disposition attribute (string)
@@ -65,3 +72,33 @@ end
 #  it should have an is_adult attribute (boolean) that is false by default. once a Hobbit is 33, it should be an adult
 #  it should have an is_old attribute that defaults to false. once a Hobbit is 101, it is old.
 #  it should have a has_ring attribute. If the Hobbit's name is "Frodo", true, if not, false.
+
+class Hobbit
+  attr_reader :name, :disposition, :age, :is_old, :has_ring
+  def initialize  (name, dispoition)
+    @name = names
+    @dispoition = disposition
+    @age = 0
+    @is_old = false
+    @has_ring = false
+
+  end
+
+  def celebrate_birthday
+    @age += 1
+  end
+
+  def is_adult
+    return true if age > 32
+    false
+  end
+
+  def is_old
+    return true if age > 101
+  end
+
+  def has_ring
+    return true if self.name == "Frodo"
+    false
+  end
+end
